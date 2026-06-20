@@ -1,0 +1,37 @@
+body{
+  height: 3000px;
+}
+
+
+
+
+.close-button{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-family: arial;
+  font-size: 20px;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.bottom-right{
+  position: fixed;
+ 
+  right: 20px;
+  bottom: 20px;
+  width: 320px;
+  height: 180px;
+  background-color: rgb(150, 150, 150);
+}
+
+
+

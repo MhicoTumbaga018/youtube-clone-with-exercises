@@ -1,0 +1,63 @@
+body{
+  height: 3000px;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.cat-pic{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.name{
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+
+.add-button{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-family: arial;
+  margin-right: 4px;
+}
+
+.message-button{
+  background-color: rgb(230, 230, 230);
+  color: black;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-family: arial;
+  margin-right: 4px;
+}
+
+
+
